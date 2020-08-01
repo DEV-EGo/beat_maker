@@ -29,4 +29,33 @@ header p{
 
 .pads{
     background: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.pads > div{
+    height: 100px;
+    width: 100px;
+}
+
+.pad1{
+    background: #60d394;
+}
+.pad2{
+    background: #d36060;
+}
+.pad3 {
+    background: magenta;
+}
+
+.pad4 {
+    background: peru;
+}
+
+.pad5 {
+    background: orange;
+}
+
+.pad6 {
+    background: turquoise;
 }
