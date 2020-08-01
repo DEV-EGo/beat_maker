@@ -6,7 +6,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgb(39 156 225) 12%, rgb(70 252 76) 83%);
 }
 
 .app{
