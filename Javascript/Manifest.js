@@ -36,10 +36,19 @@ window.addEventListener("load", () => {
 
     // function that makes bubbles
     const createBubbles = (index) => {
+
         const bubble = document.createElement("div");
+
         visual.appendChild(bubble);
+
         bubble.style.backgroundColor = colors[index];
 
-        bubble.style.animation = "jump is ease";
+        bubble.style.animation = "jump 1s ease";
+
+        // after animation ends this function will remove bubbles after click
+        bubble.addEventListener('animationend', function () {
+            visual.removeChild(this);
+        });
     };
+
 });

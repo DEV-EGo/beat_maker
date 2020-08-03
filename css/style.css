@@ -7,7 +7,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background: rgb(63,94,251);
-    background: radial-gradient(circle, rgb(39 156 225) 12%, rgb(70 252 76) 83%);
+    background: radial-gradient(circle, rgb(118 115 95) 12%, rgb(25 25 25) 83%);
 }
 
 .app{
@@ -60,6 +60,16 @@ header p{
 
 .pad6 {
     background: turquoise;
+}
+
+
+.visual > div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    z-index: -1;
 }
 
 @keyframes jump {
