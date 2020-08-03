@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background: rgb(63,94,251);
     background: radial-gradient(circle, rgb(118 115 95) 12%, rgb(25 25 25) 83%);
 }
 
@@ -26,6 +25,11 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+/* .rave {
+    align-items: center;
+    height: auto;
+} */
 
 header h1{
     margin: 50px 0px 30px 0px;
@@ -102,7 +106,7 @@ header p{
    }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 355px){
 body{
     overflow-x: hidden;
 }
