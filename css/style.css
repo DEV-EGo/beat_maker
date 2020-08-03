@@ -26,10 +26,10 @@ body{
     align-items: center;
 }
 
-/* .rave {
-    align-items: center;
-    height: auto;
-} */
+.rave {
+   display: flex;
+}
+
 h1{
     color: white;
     font-family: 'Audiowide', cursive;
@@ -49,6 +49,7 @@ header p{
     background: lightblue;
     width: 100%;
     display: flex;
+
 }
 
 .pads > div{
